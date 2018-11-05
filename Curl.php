@@ -127,7 +127,7 @@ class Curl
     public function exec()
     {
         $this->content = curl_exec($this->curl);
-        $this->reload();
+        // $this->reload();
         return $this->content;
     }
 
